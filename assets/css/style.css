@@ -1,0 +1,36 @@
+header {
+    background-image: url('../../../2_Bootstrap/olivia_ros_practica/assets/img/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 10rem;
+}
+
+header #yo {
+    padding-top: 100px;
+}
+
+
+.carousel-item {
+    height: 150px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.educacion #universidad {
+    width: 100px;
+    height: 125px;
+}
+
+.educacion #scrum {
+    width: 125px;
+    height: 125px;
+}

@@ -4,11 +4,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <!-- CSS Bootstrap 4.4.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- My CSS Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Mi Portafolio</title>
 </head>
 
+
+
 <body>
 
+    <!-- Nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info text-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">DM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link text-white active" href="#">Sobre mi<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link text-white" href="#">Experiencia</a>
+                    <a class="nav-item nav-link text-white" href="#">Trabajos</a>
+                    <a class="nav-item nav-link text-white" href="#">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero text-light text-center py-5 mt-5">
+        <div class="container">
+            <h1 id="yo" class="display-1  my-5">
+                Yo soy
+            </h1>
+            <h1 class="display-1 font-weight-bold my-5">
+                Daniel
+            </h1>
+        </div>
+    </header>
+
+
+
+    <section class="container my-5">
+        <div class="text-center my-5">
+            <h1 class="my-4">SOBRE MI</h1>
+            <p>Ingeniero en Informática, Consultor Ágil, Scrum Máster & Product Owner. Apasionado de las tecnologías de
+                la información. Disfruto de los desafíos tecnológicos,
+                el Coaching de equipos, personas y organizaciones, la lectura y los videojuegos.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="educacion">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1 class="py-3">EDUCACIÓN</h1>
+                    <a class="px-4" href="https://www.ucm.cl" target="_blank"><img id="universidad"
+                            src="assets/img/UCM.png" alt="Universidad Catolica Del Maule" data-toggle="tooltip"
+                            data-placement="top" title="Universidad Catolica Del Maule"></a>
+                    <a class="px-4" href="https://www.scrumalliance.org/community/profile/dmoralesag"
+                        target="_blank"><img id="scrum" src="assets/img/CSM.png" alt="" data-toggle="tooltip"
+                            data-placement="top" title="Certified Scrum Master"></a>
+                    <a class="px-4" href="https://www.scrumalliance.org/community/profile/dmoralesag"
+                        target="_blank"><img id="scrum" src="assets/img/CSPO.png" alt="" data-toggle="tooltip"
+                            data-placement="top" title="Certified Scrum Product Owner"></a>
+                    <a class="px-4" href="https://www.scrumalliance.org/community/profile/dmoralesag"
+                        target="_blank"><img id="scrum" src="assets/img/A-CSM.png" alt="" data-toggle="tooltip"
+                            data-placement="top" title="Advance - Certified Scrum Master"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="text-center my-5">
+            <h1>MI EXPERIENCIA</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <i class="fab fa-dev fa-5x" data-container="body" data-toggle="modal" data-target="#modal-1"></i>
+                <p class="font-weight-bold">Developer</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <i class="fas fa-laptop-code fa-5x" data-container="body" data-toggle="modal"
+                    data-target="#modal-2"></i>
+                <p class="font-weight-bold">Project Manager</p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <i class="fab fa-rebel fa-5x" data-container="body" data-toggle="modal" data-target="#modal-3"></i>
+                <p class="font-weight-bold">Scrum Master Product Owner</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 1-->
+    <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DEVELOPER</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Solventa S.A - Desarrollador Sistema de Credito y Debito<br> Banco Corpbanca - Migracion Sistema
+                        CRM Visual Basic a .Net. <br>Banco de Chile - Desarrollo de servicio OSB y administración de
+                        servidor de aplicaciones Weblogic. <br>Banco de Chile - Migración de servicios legacy a
+                        plataforma OSB 11 y 12. <br><br><b> Principal Stack Tecnologico:</b><br><br> Tuxedo <br>C# <br>
+                        .NET <br>Java <br>Python 3<br>Javascript <br>Jquery <br>HTML5 <br>CSS3 <br>Bootstrap<br>Oracle
+                        DB <br>MySQL<br>MongoDB <br>Oracle OSB 11 y 12</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2-->
+    <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PROJECT MANAGER</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Banco Corpbanca - Análisis y levantamiento tecnológico fusión Banco Itau<br>Banco De Chile -
+                        Proyecto Governance, Soa Suite<br><br><b> Principal Stack Tecnologico:</b><br><br> Websphere.
+                        <br>Weblogic. <br>Pivotal CRM. <br>Bitbucket.<br>Confluence. <br>Jira.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SCRUM MASTER & PRODUCT OWNER</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Technisys - Scrum Máster célula ágil Mobile Banco Falabella Chile, Banco Falabella Perú y Banco
+                        Falabella Colombia. <br>Nectia Software - Consultor Ágil, Scrum Máster y Product Owner,
+                        coaching, UX/UI.<br>Falabella Digital Payments - Scrum Master, Lead Agile Process Desarrollo App
+                        Fpay y Proveedor de Servicio de Pagos.<br><br><b> Principal Stack Tecnologico:
+                        </b><br><br> Agile Inception<br> User Story Mapping<br> Lean<br> Kanban<br> Scrum<br> GIT<br>
+                        Github<br> Gitlab<br>Bitbucket.<br>Confluence. <br>Jira.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jquery 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- pooper 1.16.0 -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <!-- bootstrap 4.4.1 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- My Script -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

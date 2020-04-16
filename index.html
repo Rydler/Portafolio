@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
@@ -15,15 +17,13 @@
     <title>Mi Portafolio</title>
 </head>
 
-
-
 <body>
 
-    <!-- Nav -->
+    <!-- SECCION 1 NAV -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-info text-white fixed-top">
         <div class="container">
-            <a class="navbar-brand text-white" href="#">DM</a>
+            <a class="navbar-brand text-white" href="#">Daniel Morales</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,27 +32,27 @@
                 <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link text-white active" href="#">Sobre mi<span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link text-white" href="#">Experiencia</a>
                     <a class="nav-item nav-link text-white" href="#">Trabajos</a>
+                    <a class="nav-item nav-link text-white" href="#">Experiencia</a>
                     <a class="nav-item nav-link text-white" href="#">Contacto</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <!-- SECCION 2 HEADER -->
+
     <header class="hero text-light text-center py-5 mt-5">
         <div class="container">
             <h1 id="yo" class="display-1  my-5">
-                Yo soy
-            </h1>
-            <h1 class="display-1 font-weight-bold my-5">
-                Daniel
+                Daniel Morales Aguilera
             </h1>
         </div>
     </header>
 
+    <!-- SECCION 3 SOBRE MI-->
 
-    <section class="container my-5">
+    <section class="container my-5 d-none d-sm-block">
         <div class="text-center my-5">
             <h1 class="my-4">SOBRE MI</h1>
             <p>Ingeniero en Informática, Consultor Ágil, Scrum Máster & Product Owner. Apasionado de las tecnologías de
@@ -62,51 +62,12 @@
         </div>
     </section>
 
-    <!-- MIS TRABAJOS -->
-    <section id="suscriptor" class="newsletter continer-fluid bg-light text-center text-dark">
-        <h1 class="py-5 font-weight-bold">MIS TRABAJOS</h1>
-        <div class="card-deck">
-            <div class="card">
-                <img src="assets/img/card-1.jpg" class="img-fluid card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ea, rem
-                        quisquam fugit quaerat nemo nesciunt doloribus numquam facilis excepturi quidem, esse architecto
-                        id eius inventore voluptate cumque repudiandae facere!</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quisquam
-                        inventore id ipsa eveniet quasi nostrum eligendi, delectus ea aliquam culpa illo voluptates
-                        nihil perspiciatis eius, omnis amet minus perferendis.
-                    </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem
-                        quos alias saepe! Consequatur animi, harum nesciunt quas, totam quos reprehenderit expedita
-                        placeat libero error eaque sapiente odio porro cumque!</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- SECCION 4 EDUCACIÓN -->
 
-
-
-    <section class="educacion">
+    <section class="educacion my-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h1 class="py-3">EDUCACIÓN</h1>
                     <a class="px-4" href="https://www.ucm.cl" target="_blank"><img id="universidad"
                             src="assets/img/UCM.png" alt="Universidad Catolica Del Maule" data-toggle="tooltip"
                             data-placement="top" title="Universidad Catolica Del Maule"></a>
@@ -123,6 +84,82 @@
             </div>
         </div>
     </section>
+
+
+    <!-- SECCIÓN 5 MIS TRABAJOS -->
+
+    <section id="suscriptor" class="newsletter continer-fluid bg-info text-center pb-5">
+        <h1 class="py-5 text-white">MIS TRABAJOS</h1>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="assets/img/meet_coffee.png" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Meet&Coffe</h5>
+                        <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            scelerisque
+                            semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/iguana_page.png" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Iguana Page</h5>
+                        <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            scelerisque
+                            semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/suricata.png" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Suricata</h5>
+                        <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            scelerisque
+                            semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck py-5">
+                <div class="card">
+                    <img src="assets/img/cuppon.png" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cuppon</h5>
+                        <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            scelerisque
+                            semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/ricomida.png" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Ricomida</h5>
+                        <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            scelerisque
+                            semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/dmark.png" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">DMark</h5>
+                        <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            scelerisque
+                            semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 6 MI EXPERIENCIA-->
 
     <div class="container">
         <div class="text-center my-5">
@@ -212,7 +249,9 @@
     </div>
 
 
-    <section id="suscriptor" class="newsletter continer-fluid bg-white text-center text-dark">
+    <!-- SECCIÓN 7 CONTACTO -->
+
+    <section id="suscriptor" class="newsletter continer-fluid text-center text-dark">
         <h1 class="pt-5 font-weight-bold">CONTACTO</h1>
         <div class="typeform-widget" data-url="https://moralesaguilerad.typeform.com/to/LepWM7"
             style="width: 100%; height: 500px;"></div>
@@ -239,9 +278,26 @@
     </section>
 
 
+    <!-- SECCIÓN 8 FOOTER -->
 
-    <footer class="py-2 bg-dark text-center text-white">
-        <h3>DM</h3>
+    <footer class="py-2 bg-info text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h3 class="mt-2">Daniel Morales</h3>
+                </div>
+                <div class="col-md-6 text-center">
+                    <a href="https://github.com/Rydler/Portafolio" target="_blank"><i
+                            class="fab fa-github fa-3x text-white"></i></a>
+                    <a href="https://www.linkedin.com/in/danielmoralesaguilera/" target="_blank"><i
+                            class="fab fa-linkedin fa-3x text-white"></i></a>
+                    <a href="https://twitter.com/Rydler" target="_blank"><i
+                            class="fab fa-twitter fa-3x text-white"></i></a>
+                    <a href="https://www.facebook.com/Rydler" target="_blank"><i
+                            class="fab fa-facebook-square fa-3x text-white"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
@@ -254,13 +310,6 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
 
-    <!-- bootstrap 4.4.1 -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-
-    <!-- My Script -->
-    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

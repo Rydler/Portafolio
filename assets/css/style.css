@@ -1,19 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+}
+
+nav .navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+
 header {
     background-image: url('../img/web-design-2906159_1920.jpg');
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
     padding-bottom: 10rem;
+    height: 700px;
 }
 
 header #yo {
-    padding-top: 100px;
+    padding-top: 200px;
+
 }
 
 /* MIS TRABAJOS */
 
-#suscriptor img {
-    height: 500px;
+.newsletter img {
+    height: 300px;
 }
 
 
@@ -25,4 +37,8 @@ header #yo {
 .educacion #scrum {
     width: 125px;
     height: 125px;
+}
+
+footer h3 {
+    font-family: 'Lobster', cursive;
 }
